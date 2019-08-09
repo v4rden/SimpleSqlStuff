@@ -1,0 +1,5 @@
+USE AdventureWorksLT2017
+SELECT *
+FROM SalesLT.Customer
+WHERE (MiddleName IS NOT NULL AND FirstName = 'Janet')
+   OR LastName = 'Smith';
